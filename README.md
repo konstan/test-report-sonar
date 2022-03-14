@@ -2,7 +2,9 @@
 
 Renders test reports results in [Sonar Generic Execution format](https://docs.sonarqube.org/latest/analysis/generic-test/#header-2).
 
-To run the plugin add the following to the `:test` profile
+The plugin is envoked when you run `lein test`.
+
+For the the plugin to be invoked, add the following to the `:test` profile
 
 ```clojure
 :profiles {:test {:plugins [[org.clojars.konstan/lein-test-report-sonar "0.0.2"]]
