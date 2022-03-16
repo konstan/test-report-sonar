@@ -2,7 +2,7 @@
   (:require [lein-test-report.utils :refer [add-profile]]))
 
 (def ^:const ver-test-report-junit-xml "0.2.0")
-(def ^:const ver-test-report-sonar "0.0.3")
+(def ^:const ver-test-report-sonar "0.0.4")
 (def ^:const ver-test-report "0.2.0")
 
 

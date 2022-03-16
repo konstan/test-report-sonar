@@ -1,4 +1,4 @@
-(defproject org.clojars.konstan/lein-test-report-sonar "0.0.3"
+(defproject org.clojars.konstan/lein-test-report-sonar "0.0.4"
   :description "Leiningen plugin providing Sonar Generic execution output for clojure.test"
   :url "https://github.com/konstan/test-report-sonar"
   :scm {:dir ".."}

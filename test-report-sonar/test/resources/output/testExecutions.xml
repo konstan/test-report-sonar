@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testExecutions version="1"><file path="example/first_test.clj"><testCase name="nested" duration="1"></testCase><testCase name="passing" duration="0"></testCase><testCase name="erroring" duration="0"><error message="error: Divide by zero">error: Divide by zero
+<?xml version="1.0" encoding="UTF-8"?><testExecutions version="1"><file path="test/example/first_test.clj"><testCase name="nested" duration="1"></testCase><testCase name="passing" duration="0"></testCase><testCase name="erroring" duration="0"><error message="error: Divide by zero">error: Divide by zero
 expected: (= 0 (/ 0 0))
   actual: java.lang.ArithmeticException: Divide by zero
  at clojure.lang.Numbers.divide (Numbers.java:158)
@@ -8,4 +8,4 @@ expected: (= 0 (/ 0 0))
 </error></testCase><testCase name="failing" duration="0"><failure message="failure">failure
 expected: (= 0 1)
   actual: (not (= 0 1))
-      at: first_test.clj:14</failure></testCase></file><file path="example/second_test.clj"><testCase name="passing" duration="0"></testCase></file></testExecutions>
+      at: first_test.clj:14</failure></testCase></file><file path="test/example/second_test.clj"><testCase name="passing" duration="0"></testCase></file></testExecutions>

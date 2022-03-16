@@ -76,7 +76,7 @@
 (defn- file
   [test-ns]
   {:tag :file
-   :attrs {:path (-> test-ns :ns ns->path)}
+   :attrs {:path (format "test/%s" (-> test-ns :ns ns->path))}
    :content (map test-case (:tests test-ns))})
 
 
