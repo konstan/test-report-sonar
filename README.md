@@ -14,7 +14,7 @@ For the the plugin to be invoked, add the following to the `:test` profile
 
 The reports will be generated in `test-reports/sonar/testExecutions.xml`.
 
-The plugin can generate JUnit XML results as well (internally uses . To do so, add 
+The plugin can generate JUnit XML results as well. To do so, add 
 `:emit-junit-xml true` under `:test-report-sonar` map.
 
 ```clojure
